@@ -4,7 +4,7 @@ A responsive multi-page portfolio built with **React** and **Tailwind CSS**. It 
 skills, education and projects in one place. Built as the final project of a 10-day
 Frontend Development Training at Shahid Smarak College.
 
-**Live demo:** [add your Vercel link here after deploying]
+**Live demo:** https://my-portfolio-teal-beta-55.vercel.app/
 
 ## Features
 
