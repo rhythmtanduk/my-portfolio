@@ -1,8 +1,8 @@
 
-import photo from '../assets/photo.png';
-import portfolio from '../assets/portfolio.png';
-import earlierShot from '../assets/earlier.png';
-import attendance from '../assets/attendance.png';
+import photo from '../assets/images/photo.png';
+import portfolio from '../assets/images/portfolio.png';
+import earlier from '../assets/images/earlier.png';
+import attendance from '../assets/images/attendance.png';
 
 export const profile = {
   name: "Reji Tandukar",
@@ -70,7 +70,7 @@ export const projects = [
     title: 'Multi-page React Website',
     category: 'React',
     description: 'A multi-page site with routing, a shared layout and a user details page.',
-    image: earlierShot,
+    image: earlier,
     tech: ['React', 'React Router', 'Tailwind'],
     link: 'https://github.com/rhythmtanduk/my-portfolio', 
   },

@@ -1,16 +1,57 @@
-# React + Vite
+# Personal Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive multi-page portfolio built with **React** and **Tailwind CSS**. It presents my
+skills, education and projects in one place. Built as the final project of a 10-day
+Frontend Development Training at Shahid Smarak College.
 
-Currently, two official plugins are available:
+**Live demo:** [add your Vercel link here after deploying]
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+- Six pages with React Router: Home, About, Skills, Education, Projects and Contact
+- Shared layout with a header and footer on every page
+- Project category filter and live search
+- Contact form with validation and a success message
+- Dark and light mode toggle
+- Responsive layout for mobile, tablet and desktop, with a hamburger menu on small screens
+- Reusable components with props, state, conditional rendering and lists with `.map()`
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech Stack
 
-## Expanding the ESLint configuration
+| Tool | Purpose |
+|---|---|
+| React (Vite) | Building the UI from components |
+| Tailwind CSS | Styling and responsive design |
+| React Router | Page navigation |
+| Lucide React / React Icons | Icons |
+| Git and GitHub | Version control |
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Run Locally
+
+```bash
+git clone https://github.com/rhythmtanduk/my-portfolio.git
+cd my-portfolio
+npm install
+npm run dev
+```
+
+Then open the address shown in the terminal (usually http://localhost:5173).
+
+## Folder Structure
+
+```
+src/
+  assets/       images and icons
+  components/   Header, Footer, IntroSection, SkillCard, ProjectCard,
+                EducationItem, ContactForm, ThemeToggle
+  layouts/      RootLayout
+  pages/        Home, About, Skills, Education, Projects, Contact
+  data/         data.js (profile, skills, education, projects)
+  main.jsx      router setup
+  index.css     Tailwind import
+```
+
+## Author
+
+Reji Tandukar, student at Shahid Smarak College
+GitHub: https://github.com/rhythmtanduk
